@@ -1,0 +1,168 @@
+:root{
+    --box: 0px 0px 2px 1px #e6e5e9;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica, sans-serif;
+
+}
+
+/*--------------------------------------------------- nav*/
+nav{
+    display: flex;
+    background-color: #7acc2d;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+}
+
+nav li a{
+    color: black;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: white;
+}
+
+label{
+    font-size: 12px;
+}
+
+.main_section{
+    padding: 10%;
+    text-align: center;
+}
+
+.products{
+    background-image: url("../images/curve.png");
+    max-height: 50px;
+    background-size: cover;
+    background-position: center top;
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.product{
+    padding: 10px;
+    margin-top: -240px;
+    justify-content: center;
+}
+
+.product .content{
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0 0 1px #c1bcbc;
+}
+
+.img_content{
+    text-align: center;
+}
+
+.main_button{
+    background-color: #7acc2d;
+    width: 100%;
+    padding: 10px;
+    font-size: 17px;
+    color: white;
+    border: 0px;
+    border-radius: 2px;
+}
+
+.main_button:hover{
+    background-color: #5e9e22;
+    cursor: pointer;
+}
+
+.home{
+    display: flex;
+    padding: 10%;
+    padding-bottom: 5%;
+}
+
+.home .home_content{
+    text-align: center;
+    margin: 0 5%;
+}
+
+.home_image img{
+    width: 100%;
+}
+
+.home p{
+    text-align: left;
+    margin-left: 10px;
+}
+
+.home h3{
+    text-align: left;
+    margin-left: 10px;
+}
+
+.mention_title{
+    text-align: center;
+
+}
+
+.mentions{
+    display: flex;
+    padding: 5%;
+}
+
+.mentions .mention_content{
+    margin: 10px;
+    box-shadow: 0 0 1px #c1bcbc;
+}
+
+.mention_img img{
+    width: 100%;
+}
+
+/*--------------------------------------------------- venta*/
+
+.modulo_pago{
+    background-color: white;
+    box-shadow: var(--box);
+    padding: 10px;
+}
+
+.modulo_pago_images{
+    max-width: 150px;
+    text-align: center;
+    margin: auto;
+}
+
+.data{
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px;
+    height: 35px;
+    border-radius: 2px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+/*--------------------------------------------------- footer*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    background-color: black;
+    padding: 10px;
+    color: white;
+}
+
+.contact a{
+    color: #7acc2d;
+}
+
+
